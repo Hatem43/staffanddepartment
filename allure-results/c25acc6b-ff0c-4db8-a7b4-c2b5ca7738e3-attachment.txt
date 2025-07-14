@@ -1,0 +1,4 @@
+[ReportManager] Type "Username *" @14-07-2025 16:33:47.0301 PM
+[ReportManager] Get current url "http://192.168.1.60/auth/login". @14-07-2025 16:33:47.0309 PM
+[ReportManager] Type "Password * Forgot Password?" @14-07-2025 16:33:47.0417 PM
+[ReportManager] Click "By.xpath: //span[@class='p-button-label']" @14-07-2025 16:33:52.0540 PM

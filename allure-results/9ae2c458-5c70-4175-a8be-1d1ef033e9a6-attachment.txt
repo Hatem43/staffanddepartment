@@ -1,0 +1,243 @@
+[INFO ] 2025-07-14 16:33:43.271 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.9.2.20250409[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-14 16:33:43.290 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-07-14 16:33:43.299 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-07-14 16:33:43.428 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-07-14 16:33:43.886 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-07-14 16:33:44.001 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-07-14 16:33:44.051 [main] Utils - [TestNG] Running:
+  C:\Users\Hatem Mamdouh\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+[INFO ] 2025-07-14 16:33:44.075 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of browsersetup configuration method                                             
+                                                            'Stafftest.browsersetup'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-14 16:33:44.111 [main] ReportManager - Post processing some properties to support platforms-specific restrictions.
+[INFO ] 2025-07-14 16:33:44.123 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-07-14 16:33:44.281 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.0".
+[INFO ] 2025-07-14 16:33:44.301 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-port=49604, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\staff\target\downloadedF..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-07-14 16:33:44.302 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-07-14 16:33:44.303 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-07-14 16:33:44.688 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-07-14 16:33:44.743 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-07-14 16:33:45.061 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-07-14 16:33:45.064 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-07-14 16:33:45.064 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-07-14 16:33:45.064 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-07-14 16:33:45.065 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-07-14 16:33:45.065 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.065 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.066 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.066 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.066 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/23.0.1)[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.066 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.066 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.066 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-07-14 16:33:45.067 [] headers - >> Accept: */*
+[DEBUG] 2025-07-14 16:33:45.067 [] headers - >> Host: api.github.com
+[DEBUG] 2025-07-14 16:33:45.067 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-07-14 16:33:45.067 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/23.0.1)
+[DEBUG] 2025-07-14 16:33:45.067 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-07-14 16:33:45.328 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.331 [] wire -  << "Date: Mon, 14 Jul 2025 13:33:44 GMT[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.332 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.332 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.333 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.335 [] wire -  << "ETag: W/"73b865532e02cdf6d31d2b7fe885ceb9fe0a0fad1d643107ee96561d3094da26"[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.335 [] wire -  << "Last-Modified: Mon, 14 Jul 2025 06:08:32 GMT[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.336 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.336 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.337 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.337 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.337 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.337 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.337 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.337 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.337 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.338 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.338 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.338 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.339 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.339 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.339 [] wire -  << "X-RateLimit-Remaining: 55[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.341 [] wire -  << "X-RateLimit-Reset: 1752503414[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.341 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.342 [] wire -  << "X-RateLimit-Used: 5[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.342 [] wire -  << "Content-Length: 741[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.342 [] wire -  << "X-GitHub-Request-Id: C1C5:2C6A5:DE8A4C0:E51F59A:68750738[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.343 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-07-14 16:33:45.344 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-07-14 16:33:45.346 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-07-14 16:33:45.347 [] headers - << Date: Mon, 14 Jul 2025 13:33:44 GMT
+[DEBUG] 2025-07-14 16:33:45.347 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-07-14 16:33:45.348 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-07-14 16:33:45.348 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-07-14 16:33:45.348 [] headers - << ETag: W/"73b865532e02cdf6d31d2b7fe885ceb9fe0a0fad1d643107ee96561d3094da26"
+[DEBUG] 2025-07-14 16:33:45.348 [] headers - << Last-Modified: Mon, 14 Jul 2025 06:08:32 GMT
+[DEBUG] 2025-07-14 16:33:45.348 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-07-14 16:33:45.349 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-07-14 16:33:45.349 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-07-14 16:33:45.349 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-07-14 16:33:45.349 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-07-14 16:33:45.349 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-07-14 16:33:45.350 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-07-14 16:33:45.350 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-07-14 16:33:45.350 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-07-14 16:33:45.350 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-07-14 16:33:45.350 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-07-14 16:33:45.351 [] headers - << Server: github.com
+[DEBUG] 2025-07-14 16:33:45.351 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-07-14 16:33:45.351 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-07-14 16:33:45.351 [] headers - << X-RateLimit-Remaining: 55
+[DEBUG] 2025-07-14 16:33:45.352 [] headers - << X-RateLimit-Reset: 1752503414
+[DEBUG] 2025-07-14 16:33:45.352 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-07-14 16:33:45.353 [] headers - << X-RateLimit-Used: 5
+[DEBUG] 2025-07-14 16:33:45.353 [] headers - << Content-Length: 741
+[DEBUG] 2025-07-14 16:33:45.353 [] headers - << X-GitHub-Request-Id: C1C5:2C6A5:DE8A4C0:E51F59A:68750738
+[DEBUG] 2025-07-14 16:33:45.375 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-07-14 16:33:45.377 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad][0x95]}k[0xdb]0[0x10][0xc6][0xbf][0x8a]q)[0x83][0x90][0xfa]-o[0x8e][0xa1]tk[0x93][0xbe][0xfc][0xd1][0x94][0xae][0x81][0xc1][0xda]bd[[0xb5][0xc5]d[0xc9]HrBj[0xfa][0xdd]wr[0xdc][0xd0][0x9a]-"
+[DEBUG] 2025-07-14 16:33:45.377 [] wire -  << "-[0xf3][0x8][0x4][0xa2]H[0xbf][0xbb]{[0xf4][0xe8][0xae]2KA[0xcd][0xc0][0xcc][0x94]*d`[0xdb][0xa8] VJTVFV[0xcc]s[[0xe0][0x82]K[0xfb].CO[0xea][0xf2][0xd6][0xbe][0xbb][0xfc]v[0xbe][0xc][0xe7][0x8b][0x8b][0xab][0xc5][0x1c][0xfe][0xa2][0x18]I,mo[0xe0][0xb9][0xee][0xd4][0x1f]zf[0xdf]DRb%[0xc3][0xff][0xc7][0xb4][0xb7]D@[0x97][0x5][0xe5](i[0xa1][0xb7][0x8b][0xf2][0x9f]Sn[0xf0][0xd5][0x9]C9[0xee]S[0x14]a[0xfa][0x2][0xb1]2[0x95][0xd3]V[0xa4]7[0xa2][0xec][0x97]C[0xa1][0xd4][0x9e]Z[0x3][0xcb]s[0xbc][0x91]3q[0x87][0x80]#[0x89][0x19][0xec]T[0x2][0x91]J[0x95]qa[0x6][0x95]IyJ[0x18][0xa8][0xbf][0x85][0x1f][0xa1]X[0x11][0xce][0xe4]}[0xc4][0xd5]csl[0xe8][0xfa]S[0xdf][0xf3][0xbd][0xbe][0xc9]x[0x82]CM2[0xaf]g[0xd7][0xe3][0xdb]|[0xea],f[0xf3][0xe1][0xcd]2[0xdd][0xdc][0xcc][0xae][0x8e][0xb5][0xf6]+[0xa4][0x90]hk_/[0xbe][\n]"
+[DEBUG] 2025-07-14 16:33:45.378 [] wire -  << "TJ,b[0xce][0x14]f[0xaa][0xbe]^[0xc2]lw4[0x18][0xfb]'[0xab]c[0x9d]g*[0x1a]F[0x1d]Fk[0xbe][0xcf][0x1b][0x1a]&[0xed][0xf7][0xa9][0x1f][0x8e]N![0xf9][0xc3][0xd1][0xec]C[0x11]QQ[0xb4][0xf][0xc3][0x99]'N)_[0x3][0xb7]][0xc6]{[[0xee][\r]m[0xef] ; aiw @*[0x9b][0xab][0xc][0x83][0xc6]P[0xba][0xf6]IJ[0xe4]Gn[0xdf][0x9f]j[\r][0xa8]@D[0xa9][0xe0]n5R[0xc2]u[0x9][0xdc][0xf6]y[0xeb]Y[0xee][0x87]6[0x8]Hv[0xcd] [0xcf][0xaa]~[0xc5]5[0xbb][0x8c]d,HQ[0xbb][0xac][0x8b] [0xef]@[0x0][0xe6]"E[0x8c]<[0xa3][0xce]`[0x0]I[0xe0][0xd5]m[0xa7]K[0x82]5[0x0]@x[0x5]V[0xef]D[0xda][0x12]*[0xbb][0x10]d[0x85][0xe2][0x8d][0x96]Q[0xe0][0x18][0x93][0x15][0xdc]Qwz[0xb][0x5]p[0xb5])0<[0xbe]S[0xae][0xe0][0x87][0xbe][0xe7]pE[0xf0]:l[0x96][0x8b]2[0xa2]$[0xd6]WI[0x14][0xe]Q[0x92][0xeb][0xf6][0xf1][0x84][0xa8][0xc4]/o;[0xc4][0xf7]y[0xf8]k=[0xbb]9[0xbb][0xc0][0xcb][0xb1][0x1c].[0xdc]dH4[0x1a][0xa5][0xa1][0xee]s[0x80]o5([0xf0]\[0x8a]U[0x8]-!'[0x8a][0xc8][0xc]v[0xe4][0x8][0xd0][0xc0][0xfc][0xe3][0xfe]D[0xc0]@h[0x2]C{[0xcb][0xf3]R[0xa1][0x88][0x2][0xb8]N[0xa5]o[0x16][0x2]7[0xe3]a[0xb7][0x14][0xb][0x8c][0x14]h[0x86][0xe0][0x9c][0xa9]{[0xe3][0x91]39r[0x87]Kg[0x1c]8[0x93]`[0xe0][0xff][0x84]`uu2[0xfb][0xcb].?[0x18]xzW3[0x11][0x82][0xfb]G][0x92][0x88][0x10]m[0xf7][0xea][0xcf][0xf][0xb1][0xe6]|[0xbb]a?[0x93][0xa2][0x13][0xb6]9[0xdf][0xc6]F<[0xd9]@[0xf5][0x7][0x7][0xc6][0x8f][0xc][0xa9]/[0xd2]8[0xcb][0x10]Kq[0xf2][0xc0]z[0x6][0x87]W[0x99][0x93]gl[0xe8][0x99][0x10][0x1b][0x8a][0x1b] [0xa2]v[0xaf][0x91][0xc0]3[0xd6][0xa3][0xf][0xfa][0x8f][0xb1][0xce]03[0xc0][0xda][0x92][0x80][0xdc]F[0xb4]1[0xbe]^[0xf3][0xc]E[0xf0]E[0xb0]A[0x98][0xf1]:[0xc6]?[0x9a]VEI[0xa9][0xed]9[0x83][0xc9][0x3][0xd3][0x9f]^[0xef][0x1c][0x16][0x9a]t [0x81]^/[0xf8]4[\n]"
+[DEBUG] 2025-07-14 16:33:45.378 [] wire -  << "LS [0x81][0xdf][0xd6][0xea]Y[0x96][0xd5]rX[0xe][0x95][0xd4]]'[0xe6]%[0x3][0xb][0xb8]/[0xbf][0x1][0x9a]|>[0xa0]z[0x8][0x0][0x0]"
+[DEBUG] 2025-07-14 16:33:45.379 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-07-14 16:33:45.488 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@161145e7
+[DEBUG] 2025-07-14 16:33:45.489 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-07-14 16:33:46.099 [main] ReportManager - Jul 14, 2025 4:33:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-07-14 16:33:46.099 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+[INFO ] 2025-07-14 16:33:46.108 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-07-14 16:33:46.127 [main] ReportManager - Target URL: "http://192.168.1.60/auth/login"
+[INFO ] 2025-07-14 16:33:46.149 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-07-14 16:33:46.237 [main] ReportManager - Navigate to url "http://192.168.1.60/auth/login".
+[INFO ] 2025-07-14 16:33:46.259 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: browsersetup'
+[INFO ] 2025-07-14 16:33:46.307 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of loginvalid configuration method                                              
+                                                             'Stafftest.loginvalid'                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2025-07-14 16:33:46.509 [] ReportManager - 
+[1;33m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          ⚠️ You're using an outdated engine version "9.2.20250409" ⚠️                                          
+                                 Kindly upgrade to the latest one "9.3.20250714" to ensure the best experience.                                 
+                           For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ERROR] 2025-07-14 16:33:47.300 [main] AllureLifecycle - Could not update step: step with uuid 46e513c3-e7b5-4101-ad89-0cd1f13390bd not found
+[INFO ] 2025-07-14 16:33:47.301 [main] ReportManager - Type "Username *"
+[INFO ] 2025-07-14 16:33:47.309 [main] ReportManager - Get current url "http://192.168.1.60/auth/login".
+[ERROR] 2025-07-14 16:33:47.417 [main] AllureLifecycle - Could not update step: step with uuid 46e513c3-e7b5-4101-ad89-0cd1f13390bd not found
+[INFO ] 2025-07-14 16:33:47.418 [main] ReportManager - Type "Password * Forgot Password?"
+[ERROR] 2025-07-14 16:33:52.540 [main] AllureLifecycle - Could not update step: step with uuid 46e513c3-e7b5-4101-ad89-0cd1f13390bd not found
+[INFO ] 2025-07-14 16:33:52.541 [main] ReportManager - Click "By.xpath: //span[@class='p-button-label']"
+[INFO ] 2025-07-14 16:33:57.556 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: loginvalid'
+[INFO ] 2025-07-14 16:33:57.561 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of login configuration method                                                
+                                                                'Stafftest.login'                                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-14 16:33:57.572 [main] ReportManager - Loaded Test Data: "E:\staff\src\test\resources\staffinfo.json".
+[INFO ] 2025-07-14 16:33:57.584 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-07-14 16:33:57.593 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-14 16:33:57.597 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-07-14 16:33:57.653 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                        Test Method: 'Stafftest.addstaff'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ERROR] 2025-07-14 16:33:58.080 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:58.082 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[1]/tilde-theme-side-menu/div/ul/li[4]/a/span"
+[ERROR] 2025-07-14 16:33:58.258 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:58.259 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Add staff']"
+[ERROR] 2025-07-14 16:33:58.565 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:58.565 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[1]/ndc-fg-dropdown-input/p-dropdown/div/span"
+[DEBUG] 2025-07-14 16:33:58.629 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:49605<->140.82.121.5:443 closed
+[ERROR] 2025-07-14 16:33:58.771 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:58.772 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"StaffUser")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[1]/ndc-fg-dropdown-input/p-dropdown/div/span}]}]}"
+[ERROR] 2025-07-14 16:33:58.894 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:58.894 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[2]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div"
+[ERROR] 2025-07-14 16:33:59.076 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:59.077 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"Emirates(United Arab Emirates)")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[2]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div}]}]}"
+[ERROR] 2025-07-14 16:33:59.205 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:59.205 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[3]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div"
+[ERROR] 2025-07-14 16:33:59.394 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:59.395 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"Dubai")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[3]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div}]}]}"
+[ERROR] 2025-07-14 16:33:59.536 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:59.537 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[4]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div"
+[ERROR] 2025-07-14 16:33:59.742 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:59.743 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"BRANCH MANAGER")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[4]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div}]}]}"
+[ERROR] 2025-07-14 16:33:59.884 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:33:59.885 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[5]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div"
+[ERROR] 2025-07-14 16:34:00.074 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:00.075 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"Admin Role")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[5]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div}]}]}"
+[ERROR] 2025-07-14 16:34:00.171 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:00.173 [main] ReportManager - Type "Employee name *"
+[ERROR] 2025-07-14 16:34:00.302 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:00.303 [main] ReportManager - Type "Employee email *"
+[ERROR] 2025-07-14 16:34:00.415 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:00.416 [main] ReportManager - Type "+20 2 34567890"
+[ERROR] 2025-07-14 16:34:00.545 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:00.546 [main] ReportManager - Type "Username *"
+[ERROR] 2025-07-14 16:34:00.685 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:00.686 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[2]/div/ndc-fg-input[6]/ndc-fg-dropdown-input/p-dropdown/div/span"
+[ERROR] 2025-07-14 16:34:01.128 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:01.129 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"No Approver")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[2]/div/ndc-fg-input[6]/ndc-fg-dropdown-input/p-dropdown/div/span}]}]}"
+[ERROR] 2025-07-14 16:34:01.321 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:01.322 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Send for Approval')]"
+[ERROR] 2025-07-14 16:34:02.536 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:02.536 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Add staff']"
+[ERROR] 2025-07-14 16:34:02.664 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:02.665 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[1]/ndc-fg-dropdown-input/p-dropdown/div/span"
+[ERROR] 2025-07-14 16:34:02.835 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:02.835 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"StaffUser")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[1]/ndc-fg-dropdown-input/p-dropdown/div/span}]}]}"
+[ERROR] 2025-07-14 16:34:02.943 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:02.944 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[2]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div"
+[ERROR] 2025-07-14 16:34:03.110 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:03.111 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"Emirates(United Arab Emirates)")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[2]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div}]}]}"
+[ERROR] 2025-07-14 16:34:03.217 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:03.217 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[3]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div"
+[ERROR] 2025-07-14 16:34:03.383 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:03.384 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"Dubai")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[3]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div}]}]}"
+[ERROR] 2025-07-14 16:34:03.509 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:03.510 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[4]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div"
+[ERROR] 2025-07-14 16:34:03.708 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:03.709 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"BRANCH MANAGER")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[4]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div}]}]}"
+[ERROR] 2025-07-14 16:34:03.834 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:03.834 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[5]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div"
+[ERROR] 2025-07-14 16:34:04.044 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:04.045 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"Admin Role")]}, filters=[{kind=below, args=[{xpath=/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[5]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div}]}]}"
+[ERROR] 2025-07-14 16:34:04.131 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:04.133 [main] ReportManager - Type "Employee name *"
+[ERROR] 2025-07-14 16:34:04.244 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:04.244 [main] ReportManager - Type "Employee email *"
+[ERROR] 2025-07-14 16:34:04.341 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:04.342 [main] ReportManager - Type "+20 2 34567890"
+[ERROR] 2025-07-14 16:34:04.439 [main] AllureLifecycle - Could not update step: step with uuid 61048352-9b13-4f68-9a59-aa73a47ded30 not found
+[INFO ] 2025-07-14 16:34:04.441 [main] ReportManager - Type "Username *"
+[INFO ] 2025-07-14 16:34:04.807 [main] ReportManager - user is already exists
+[INFO ] 2025-07-14 16:34:04.811 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: addstaff'
+[INFO ] 2025-07-14 16:34:04.812 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Finished Execution of Test Method: 'Stafftest.addstaff'                                             
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-14 16:34:04.881 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-07-14 16:34:04.882 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
