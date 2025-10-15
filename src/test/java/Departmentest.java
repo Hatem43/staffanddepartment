@@ -23,6 +23,7 @@ public class Departmentest extends Logintest {
 
     @Test
     public void activedepartment() {
+        dash.opencompanylist();
         dash.openDeprtmentpage();
         dash.adddept();
         String departname = deptetst.getTestData("departmentname");

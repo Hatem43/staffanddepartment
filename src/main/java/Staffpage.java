@@ -13,7 +13,7 @@ public class Staffpage extends LoginPage{
       By operatingcountry=By.xpath("/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[2]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div");
       By Branchname=By.xpath("/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[3]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div");
       By department=By.xpath("/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[4]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div");
-      By role=By.xpath("/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[5]/ndc-fg-dropdown-input/p-multiselect/div/div[2]/div");
+      By role=By.xpath("/html/body/ndc-root/ndc-layout/div/div[2]/div[1]/div/ndc-add-staff/div/div/ndc-fg-form-container/div/ndc-fg-form-generator/form/div[1]/div/ndc-fg-input[5]/ndc-fg-dropdown-input/p-dropdown/div/span");
       By employee=By.id("id-Employeename");
       By employeeemail=By.id("id-Employeeemail");
       By employeephone=By.id("Employee phone number");

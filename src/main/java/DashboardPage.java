@@ -52,6 +52,8 @@ public class DashboardPage extends LoginPage {
     By staff=By.xpath("/html/body/ndc-root/ndc-layout/div/div[1]/tilde-theme-side-menu/div/ul/li[4]/a/span");
     By addstaff=By.xpath("//span[normalize-space()='Add staff']");
 
+
+    By company=By.xpath("/html/body/ndc-root/ndc-layout/div/div[1]/tilde-theme-side-menu/div/ul/li[1]/tilde-theme-accordion/header/a");
     By department=By.xpath("/html/body/ndc-root/ndc-layout/div/div[1]/tilde-theme-side-menu/div/ul/li[1]/tilde-theme-accordion/section/ul/li[3]/a/span");
 
     By adddepartment= By.xpath("//span[normalize-space()='Add department']");
@@ -247,6 +249,11 @@ public class DashboardPage extends LoginPage {
     public Staffpage addstaff(){
         driver.element().click(addstaff);
         return  new Staffpage(driver);
+    }
+
+    public DashboardPage opencompanylist(){
+        driver.element().click(company);
+        return new DashboardPage(driver);
     }
 
     public Department openDeprtmentpage(){

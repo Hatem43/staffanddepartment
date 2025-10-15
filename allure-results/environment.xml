@@ -14,19 +14,19 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket65018 @w@C:\Users\HATEMM~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\HATEMM~1\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket61715 @w@C:\Users\HATEMM~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\HATEMM~1\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
     <value>release</value>
   </parameter>
   <parameter>
-    <key>java.specification.name</key>
-    <value>Java Platform API Specification</value>
-  </parameter>
-  <parameter>
     <key>java.vm.specification.vendor</key>
     <value>Oracle Corporation</value>
+  </parameter>
+  <parameter>
+    <key>java.specification.name</key>
+    <value>Java Platform API Specification</value>
   </parameter>
   <parameter>
     <key>rootLogger</key>
@@ -273,10 +273,6 @@
     <value>same_thread</value>
   </parameter>
   <parameter>
-    <key>allure.testng.hide.configuration.failures</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
     <key>stderr.encoding</key>
     <value>UTF-8</value>
   </parameter>
@@ -385,16 +381,8 @@
     <value>com.epam.reportportal</value>
   </parameter>
   <parameter>
-    <key>allure.testng.hide.disabled.tests</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
-    <key>log4j.configurationFile</key>
-    <value>src/main/resources/properties/log4j2.properties</value>
-  </parameter>
-  <parameter>
     <key>java.class.path</key>
-    <value>C:\Users\HATEMM~1\AppData\Local\Temp\classpath437350399.jar</value>
+    <value>C:\Users\HATEMM~1\AppData\Local\Temp\classpath1925620448.jar</value>
   </parameter>
   <parameter>
     <key>org.uncommons.reportng.escape-output</key>
@@ -415,10 +403,6 @@
   <parameter>
     <key>cucumber.execution.dry-run</key>
     <value>false</value>
-  </parameter>
-  <parameter>
-    <key>rp.properties.path</key>
-    <value>src/main/resources/properties/</value>
   </parameter>
   <parameter>
     <key>logger.rp.level</key>
